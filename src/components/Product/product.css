@@ -1,0 +1,28 @@
+.product-default{
+    padding: 10px;
+    text-align: center;
+    background: #f2f2f2;
+    border-radius: 5px;
+}
+.data-product {
+    display: flex;
+    flex-direction: column;
+}
+.btn-addToCart{
+    color: white;
+    background: #1b1a20;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.btn-addToCart:hover{
+    background: blue;
+}
+
+.products{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}

@@ -1,0 +1,55 @@
+.header{
+    display: flex;
+    align-items: center;
+}
+.header-settings{
+    display: flex;
+    justify-content: space-between;  
+}
+.fa-bars{
+    width: auto;
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.app-title {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.length-products{
+    border-radius: 50%;
+    background: red;
+    color: #ffffff;
+    position: relative;
+    top: 15px;
+    right: 10px;
+    font-weight: bold;
+    line-height: 1.2em;
+    width: 1.2em;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+.select-filter{
+    margin-left: 10px;
+    text-align: center;
+}
+.fa-shopping-cart{
+    margin-left: 15px;
+    cursor: pointer;
+    font-size: 30px;
+}
+@media (max-width: 818px){
+    .header-settings{
+        display: flex;
+        flex-direction: column;
+    }
+    .header-input{
+        margin-bottom: 10px;
+    }
+
+}
