@@ -47,7 +47,7 @@ export default function App () {
         ...state
       })
     }else{
-      localStorage.setItem('cartProducts', JSON.stringify(state.productsCart))
+      localStorage.setItem('cartProducts', JSON.stringify(product))
       return setState({
         ...state,
         productsCart: state.productsCart.concat(product)
