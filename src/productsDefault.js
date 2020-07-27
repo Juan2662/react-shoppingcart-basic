@@ -40,13 +40,6 @@ export default [
         description: "Televisor LG 50 pulgadas como nuevo",
         quantity: 1,
         price: 7000
-    },
-    {
-        id: 7,
-        name: "None",
-        description: "None",
-        quantity: 1,
-        price: 1000
     }
 
 
